@@ -1,0 +1,12 @@
+
+=== price-watcher 1.0.0 — resumen de la corrida ===
+  A Light in the Attic: GBP 51.77 — en stock (22 u.)
+  Tipping the Velvet: GBP 53.74 — en stock (20 u.)
+  Soumission: GBP 50.10 — en stock (20 u.)
+  Sharp Objects: GBP 47.82 — en stock (20 u.)
+
+--- Cambios respecto a la corrida anterior ---
+  [new] A Light in the Attic: Nuevo producto monitoreado a GBP 51.77.
+  [new] Tipping the Velvet: Nuevo producto monitoreado a GBP 53.74.
+  [new] Soumission: Nuevo producto monitoreado a GBP 50.10.
+  [new] Sharp Objects: Nuevo producto monitoreado a GBP 47.82.

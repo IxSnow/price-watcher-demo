@@ -1,0 +1,38 @@
+{
+  "light-in-the-attic": {
+    "name": "A Light in the Attic",
+    "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "price": 51.77,
+    "currency": "GBP",
+    "in_stock": true,
+    "quantity": 22,
+    "checked_at": "2026-10-23T20:47:13Z"
+  },
+  "tipping-the-velvet": {
+    "name": "Tipping the Velvet",
+    "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "price": 53.74,
+    "currency": "GBP",
+    "in_stock": true,
+    "quantity": 20,
+    "checked_at": "2026-10-23T20:47:15Z"
+  },
+  "soumission": {
+    "name": "Soumission",
+    "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+    "price": 50.1,
+    "currency": "GBP",
+    "in_stock": true,
+    "quantity": 20,
+    "checked_at": "2026-10-23T20:47:17Z"
+  },
+  "sharp-objects": {
+    "name": "Sharp Objects",
+    "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+    "price": 47.82,
+    "currency": "GBP",
+    "in_stock": true,
+    "quantity": 20,
+    "checked_at": "2026-10-23T20:47:20Z"
+  }
+}

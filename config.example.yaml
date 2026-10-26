@@ -1,0 +1,41 @@
+# Configuración de ejemplo para price-watcher.
+# Este ejemplo apunta a books.toscrape.com, un sitio público creado
+# expresamente para practicar scraping (no es una tienda real).
+#
+# Cada producto define la URL y los selectores CSS para extraer el precio y
+# el stock. Así el mismo programa sirve para cualquier sitio: solo cambias
+# los selectores.
+
+settings:
+  # User-Agent HONESTO e identificable. NO te hagas pasar por un navegador.
+  user_agent: "price-watcher-demo/1.0 (+https://github.com/IxSnow/price-watcher-demo; monitor de portafolio)"
+  request_delay_seconds: 2.0   # pausa entre peticiones (carga moderada)
+  timeout_seconds: 20.0
+  currency: "GBP"
+  history_path: "data/history.csv"
+  state_path: "data/state.json"
+
+products:
+  - id: "light-in-the-attic"
+    name: "A Light in the Attic"
+    url: "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+    price_selector: "p.price_color"
+    stock_selector: "p.availability"
+
+  - id: "tipping-the-velvet"
+    name: "Tipping the Velvet"
+    url: "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html"
+    price_selector: "p.price_color"
+    stock_selector: "p.availability"
+
+  - id: "soumission"
+    name: "Soumission"
+    url: "https://books.toscrape.com/catalogue/soumission_998/index.html"
+    price_selector: "p.price_color"
+    stock_selector: "p.availability"
+
+  - id: "sharp-objects"
+    name: "Sharp Objects"
+    url: "https://books.toscrape.com/catalogue/sharp-objects_997/index.html"
+    price_selector: "p.price_color"
+    stock_selector: "p.availability"

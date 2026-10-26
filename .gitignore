@@ -1,0 +1,15 @@
+# Secretos y entorno
+.env
+*.env
+!.env.example
+
+# Datos generados en las corridas (el histórico de ejemplo vive en examples/)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
